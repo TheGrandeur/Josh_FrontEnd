@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josh Frontend Assignment</title>
+
+  <!-- Open Sans Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- Font Awesome for social icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="full-page">
+    <header class="header">
+      <div class="first">
+        <img src="assets/image.png" alt="Background Image" class="image1" />
+        
+        <div class="navbar">
+          <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Pricing</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="logo-container">
+            <img src="assets/logo-light.png" alt="Logo" class="image2" />
+          </div>
+          <!-- Social Media Icons -->
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="text-container">
+          <div class="text1">
+            <h1>The best products<br> start with Figma</h1>
+            <h4>Most calendars are designed for teams. Slate is designed<br> for freelancers</h4>
+          </div>
+          <div class="text2">
+            <p>Try For Free</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="second">
+      <div class="text3">
+        <div class="upper">
+          <h2>Features</h2>
+          <h4>Most calendars are designed for teams.<br> Slate is designed for freelancers</h4>
+        </div>
+        <div class="middle">
+          <div class="middle1">
+            <h3>OpenType features Variable fonts</h3>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+          <div class="middle2">
+            <h3>Design with real data</h3>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+          <div class="middle3">
+            <h3>Fastest way to take action</h3>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+        </div>
+        <div class="lower">
+            <div class="video-wrapper">
+              <div class="video-container" onclick="toggleVideo()">
+                <iframe id="youtubeVideo"
+                        src="https://www.youtube.com/embed/VQRLujxTm3c?enablejsapi=1&rel=0"
+                        title="YouTube video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+                <div id="playIcon" class="play-icon">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
