@@ -113,7 +113,7 @@
   
   /* Blue Button for Text2 */
   .text2 p {
-    background-color: #0661b0;
+    background-color: #2091F9;
     color: white;
     padding: 15px 30px;
     font-size: 18px;
@@ -136,7 +136,7 @@
   }
   
   .second .upper h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #1e1e1e;
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -299,7 +299,7 @@
   }
   
   .third-left-text1 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #1e1e1e;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -314,7 +314,7 @@
   }
   
   .third-left-text2 p {
-    background-color: #0661b0;
+    background-color: #2091F9;
     color: white;
     padding: 15px 30px;
     font-size: 18px;
@@ -402,7 +402,7 @@
 }
 
 .fourth-text-content h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #1e1e1e;
   line-height: 1.3;
@@ -430,7 +430,7 @@
 
 .newsletter-form button {
   padding: 12px 24px;
-  background-color: #4a90e2;
+  background-color: #2091F9;
   color: white;
   border: none;
   border-radius: 25px;
@@ -440,7 +440,7 @@
 }
 
 .newsletter-form button:hover {
-  background-color: #1e5fcc;
+  background-color: #052095;
 }
 
 /* Responsive */
@@ -505,7 +505,7 @@
 }
 
 .fifth-lower p {
-  background-color: #4a90e2;
+  background-color: #2091F9;
   color: #fff;
   padding: 12px 30px;
   border-radius: 30px;
@@ -516,7 +516,7 @@
 }
 
 .fifth-lower p:hover {
-  background-color: #1e5fcc;
+  background-color: #052095;
 }
 
 /* Responsive styling */
@@ -605,7 +605,7 @@
 }
 
 .seventh-upper h2 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   color: #ffffff;
 }
@@ -688,7 +688,7 @@
 
 .order-btn {
   display: inline-block;
-  background-color: #0066ff;
+  background-color: #2091F9;
   color: #fff;
   padding: 12px 25px;
   border-radius: 30px;
@@ -698,7 +698,7 @@
 }
 
 .order-btn:hover {
-  background-color: #0051cc;
+  background-color: #052095;
 }
 
 .highlighted {
@@ -728,7 +728,7 @@
 }
 
 .order-btn.white:hover {
-  background-color: #e6e6e6;
+  background-color: #d3d1d1;
 }
 
 /* Sizing classes for middle vs side cards */
@@ -822,7 +822,7 @@
 }
 
 .contact-form button {
-  background-color: #3399ff;
+  background-color: #2091F9;
   color: #fff;
   padding: 12px 25px;
   border: none;
@@ -834,7 +834,7 @@
 }
 
 .contact-form button:hover {
-  background-color: #2673cc;
+  background-color: #052095;
 }
 
 /* Contact Info and Map */
